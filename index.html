@@ -1,0 +1,232 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=/, initial-scale=1.0" />
+    <title> Himanshu Dahman | FRONT END Developer</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="util.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="mt-2">
+        <div class="logo"><img src="logo2.png" alt="" /></div>
+        <div class="head-link">
+          <ul class="font-5">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+          </ul>
+        </div>
+        <div class="nav-btn">
+          <a href="#form"
+            ><button class="btn btn-primary">Say Hello!</button></a>
+        </div>
+      </nav>
+
+      <div class="info mt-4">
+        <div class="font-1" id="heading" >FRONT END Developer</div>
+        <div class="font-2">
+          I design and code beautifully simple things, and I love what I do.
+        </div>
+        <div class="icon mt-2"><img src="icon2.png" alt="" /></div>
+      </div>
+    </header>
+
+    <div class="about" id="about">
+      <h1 class="font-1">
+        About Me!
+      </h1>
+      <div class="box3">
+        <div class="info-img">
+          <img src="profile.jpg" alt="" />
+        </div>
+        <div class="details font-2">
+          Hi! My name is Himanshu Dahman. I am a Web Developer, and I'm very
+          passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make
+          your project a success.
+          <div class="lists">
+            <div class="list1">
+              <ul class="font-5">
+                <li><b>Birthday</b> : 09.06.2005</li>
+                <li><b>Location</b> : Rohtak , haryana</li>
+                <li><b>Study</b> : BTech computer science</li>
+                <li><b>Mail</b> : himanshudahman8930@gmail.com</li>
+              </ul>
+            </div>
+            <div class="list2">
+              <ul class="font-5">
+                <li><b>Age</b> : 19</li>
+                <li><b>Interests</b> : Coding , Music</li>
+                <li><b>Degree</b> : BTech </li>
+                <li><b>Phone</b> : +91 9017761473</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="head mt-2">
+      <h1 class="font-4" id="skills">Skills I Know</h1>
+    </div>
+
+    <div class="box2 text-align">
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="html.png" alt="" class="m-auto" />
+          <h1 class="font-5">HTML 5</h1>
+          <div onclick="cardClick('HTML?','HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span>
+
+
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="css.png" alt="" class="m-auto" />
+          <h1 class="font-5">CSS 3</h1>
+          <div onclick="cardClick('CSS?','Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span>
+
+
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="javascript.png" alt="" class="m-auto" />
+          <h1 class="font-5">JAVASCRIPT</h1>
+          <div onclick="cardClick('JavaScript?','JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span>
+    </div>
+
+    <div class="box2 text-align">
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="bootstrap.png" alt="" class="m-auto" />
+          <h1 class="font-5">BOOTSTRAP</h1>
+          <div onclick="cardClick('BOOTSTRAP?','Bootstrap (formerly Twitter Bootstrap) is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span
+      >
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="nodejs.png" alt="" class="m-auto" />
+          <h1 class="font-5">nodejs</h1>
+          <div onclick="cardClick( 'Node js','Node.js (also known as Node.js or Node) is a free and open-source, cross-platform, back-end JavaScript runtime environment. It is maintained by the Node.js Foundation and a community of individual developers and companies.');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span>
+
+      <span class="card">
+        <div class="skill-body mt-2">
+          <img src="MongoDb.png" alt="" class="m-auto" />
+          <h1 class="font-5">MONGO DB</h1>
+          <div onclick="cardClick('MONGO db?','(also known as MongoDB) is a free and open-source, cross-platform, document-oriented NoSQL database. It is designed to store and manage data in a flexible, JSON-like format, allowing for scalable and high-performance applications. MongoDB is maintained by MongoDB, Inc., and supported by a large community of developers and companies..');" class="card__inner" style="overflow: auto;">
+          </div>
+        </div></span>
+
+        <span class="card">
+          <div class="skill-body mt-2">
+            <img src="express-logo.png" alt="" class="m-auto" />
+            <h1 class="font-5">nodejs</h1>
+            <div onclick="cardClick( 'Express.js', '(also known as Express or Express.js) is a free and open-source web application framework for Node.js. It is designed for building web applications and APIs with a minimal and flexible structure. Express.js is maintained by a community of developers and is widely used for its simplicity and robust features, allowing developers to handle routes, requests, and middleware efficiently.');" class="card__inner" style="overflow: auto;">
+            </div>
+          </div></span>
+      
+    </div >
+
+
+    <!-- //  what i do -->
+    <div class="head mt-10" id="work">
+      <h1 class="font-4">Things I Do</h1>
+    </div>
+    <div class="work-box">
+      <span class="work"><img src="computer.png" alt="" /></span>
+      <span class="work"><img src="code.png" alt="" /> </span>
+      
+    </div>
+    <div class="work-box2 mt-2">
+      <span class="work-2">Responsive WebSite</span>
+      <span class="work-2">Code Debugging</span>
+ 
+    </div>
+
+    <!-- projects -->
+    <div class=" mt-2 head  mt-10">
+     <h1 class="font-6" id="project-head" 
+     
+     >Some Recent Projects</h1>
+    </div>
+<div class="projects text-align">
+<div>
+
+  <a href="https://wanderlust-dmo1.onrender.com/listings" target="_blank">
+    <span id="span3">
+      <h4 style="background-color: black; color: white;">Wanderlust:vacation travel place Website</h4>
+    </span>
+  </a>
+
+</div>
+
+
+
+</div>
+</div>
+
+    <!-- forms -->
+    <div class="head mt-10">
+      <h1 class="font-4">Quick Contact</h1>
+    </div>
+    <div class="form font-2" id="form">
+      <div class="container">
+        <!-- code here -->
+        <div class="card">
+          <div class="card-image"></div>
+          <form class="card-form">
+            <div class="input">
+              <input type="text" class="input-field" value="" required />
+              <label class="input-label">Full name</label>
+            </div>
+            <div class="input">
+              <input type="text" class="input-field" value="" required />
+              <label class="input-label">Email</label>
+            </div>
+            <div class="action">
+              <button class="action-button btn-hover">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer-basic">
+      <footer>
+        <div class="social">
+          <a href="https://www.instagram.com/himanshujangra23?igsh=MWFlbXVoMDdqcjk4cA%3D%3D&utm_source=qr" target="_blank"><i class="icon ion-social-instagram"></i></a
+          ><a href="#"><i class="icon ion-social-snapchat"></i></a
+          ><a href="#"><i class="icon ion-social-twitter"></i></a
+          ><a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <p class="copyright">All Rights Reserved To <B></B>HIMANSHU DAHMAN © 2024</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      function cardClick(heading,description){
+        alert(`${heading}\n${description}`);
+      }
+    </script>
+  </body>
+</html>
